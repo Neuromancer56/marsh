@@ -825,8 +825,8 @@ biome_lib.register_on_generate({
     surface = {
 		"marsh:dirt_with_marsh_grass", "marsh:mud", "marsh:root_with_mud"
 	},
-    max_count = REEDMACE_NEAR_WATER_PER_MAPBLOCK*100,
-    rarity = (101 - REEDMACE_NEAR_WATER_RARITY)/20,
+    max_count = 35*100,
+    rarity = (101 - 40)/20,
 	--rarity = 60,
     min_elevation = 1, -- above sea level
 	near_nodes = {"default:water_source","marsh:marsh_water_source", "marsh:dirt_with_marsh_grass", "marsh:mud", "marsh:root_with_mud"},
@@ -842,8 +842,8 @@ biome_lib.register_on_generate({
     surface = {
 		"marsh:dirt_with_marsh_grass", "marsh:mud", "marsh:root_with_mud"
 	},
-    max_count = REEDMACE_IN_WATER_PER_MAPBLOCK*100,
-	rarity = (101 - REEDMACE_IN_WATER_RARITY)/20,
+    max_count = 35*100,
+	rarity = (101 - 40)/20,
     --rarity = 35,
     min_elevation = 0, -- a bit below sea level
 	max_elevation = 0, -- ""
@@ -859,8 +859,8 @@ biome_lib.register_on_generate({
     surface = {
 		"marsh:dirt_with_marsh_grass", "marsh:mud", "marsh:root_with_mud"
 	},
-    max_count = REEDMACE_FOR_OASES_PER_MAPBLOCK*100,
-    rarity = (101 - REEDMACE_FOR_OASES_RARITY)/20,
+    max_count = 35*100,
+    rarity = (101 - 90)/20,
 	--rarity = 10,
     neighbors = {"default:water_source","marsh:marsh_water_source", "marsh:dirt_with_marsh_grass", "marsh:mud", "marsh:root_with_mud"},
 	ncount = 1,
